@@ -1,0 +1,45 @@
+body{
+    background: 
+    repeating-radial-gradient(circle at 0 0,#eee,#ccc 50px);
+    }
+.lengd{
+    height: 100vh;
+    } 
+ #videobcg { 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+    }
+.outline{
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    }
+.h{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.7em;
+    color:white;
+    }
+.g{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:1em;
+    color:white;
+    max-width: 70%;
+    }
+.texti{
+    color: black;
+}
+#map {
+    height: 600px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+}

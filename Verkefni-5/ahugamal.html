@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Áhugamál</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="shortcut icon" href="favicon.ico"> 
+    </head>
+    <body>
+        <div class="w3-bar w3-black">
+                <a href="index.html" class="w3-bar-item w3-button w3-white">Heim</a>
+        <div class="w3-black lengd">
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+                <h2 class="w3-wide w3-center">Áhugamál</h2>
+                <p class="w3-opacity w3-center"><i>Tónlist, Ræktin og Tækni</i></p><br>
+        </div>
+        <div class="g w3-container">
+                <iframe src="https://open.spotify.com/embed/user/elfarsa/playlist/5npwWemrB3W9aGR1SD43Q9" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <p class="w3-opacity">Tónlist<br>
+                Koffín og tónlist er best fyrir einbeitinguna finnst mér, ég nota þetta "combo" í ræktinni og skólanum</P>               
+        </div>              
+        </div>
+        </div>
+                <p class="w3-center">Ræktin þar sem ég fer oftast</p>
+        <div id="map"></div>
+        <script>
+        // Initialize and add the map
+        function initMap() {
+        // The location of Uluru
+        var uluru = {lat: 64.147340, lng: -21.771068};
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 17, center: uluru});
+        }
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiKdXlXoeZ2ca6Kbc9PgrOQL5jQkGTvMs&callback=initMap">
+        </script>
+        <div class="g w3-container w3-content texti w3-padding-64" style="max-width:800px"></div>   
+        </div>
+    </body>
+</html>
